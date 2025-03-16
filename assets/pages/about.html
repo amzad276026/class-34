@@ -9,28 +9,26 @@
                 height: auto;
             }
         </style>
-        <title>
-            Home page
-        </title>
+        <title>About page</title>
     </head>
     <body>
         <div>
             <div>
-                <h1>Welcome to Our Website</h1>
+                <h1>About Us</h1>
             </div>
             <div>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="../../index.html">Home</a>
                     </li>
                     <li>
-                        <a href="assets/pages/about.html">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="assets/pages/gallery.html">Gallery</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
                     <li>
-                        <a href="assets/pages/contact.html">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                     <li>
                         <a href="#">Form</a>
@@ -41,83 +39,51 @@
 
         <div>
             <div>
-                <h2>Introduction</h2>
+                <h2>Our Mission</h2>
             </div>
             <div>
                 <p>
-                    This is a <b>demo website</b> designed for students. You can
-                    learn <i>HTML concepts</i> step by step. Importtant notes
-                    are <mark>highlithted</mark>, and key
-                    <b>key terms are emphasized.</b> Some change
-                    <del>are removed</del> while others <u>are inserted.</u>
+                    We aim to provide <b>quality education</b> in
+                    <i>web development</i>. Our tutorials are
+                    <mark>easy to follow</mark> and
+                    <b>stuctured for learning.</b>
                 </p>
             </div>
         </div>
 
         <div>
-            <div>
-                <h2>Topics Table</h2>
-            </div>
-            <div>
-                <table border="1">
-                    <tr>
-                        <th colspan="2">Topics Covered</th>
-                        <th>Additional Notes</th>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">HTML Basics</td>
-                        <td>Tags</td>
-                        <td rowspan="2">Core concepts</td>
-                    </tr>
-                    <tr>
-                        <td>Attributes</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">Keep Practiciping!</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <h2>Responsive</h2>
-            </div>
+            <div><h2>Team Image</h2></div>
             <div>
                 <figure>
                     <picture>
                         <source
                             srcset="
-                                assets/images/home-500.webp 510w,
-                                assets/images/home-500.jpg  500w
+                                ../images/about-500.webp 510w,
+                                ../images/about-500.jpg  500w
                             "
                             media="(max-width: 600px)"
                         />
                         <source
                             srcset="
-                                assets/images/home-1000.webp 1010w,
-                                assets/images/home-1000.jpg  1000w
+                                ../images/about-1000.webp 1010w,
+                                ../images/about-1000.jpg  1000w
                             "
                             media="(max-width: 1200px)"
                         />
                         <source
                             srcset="
-                                assets/images/home-1500.webp 1510w,
-                                assets/images/home-1500.jpg  1500w
+                                ../images/about-1500.webp 1510w,
+                                ../images/about-1500.jpg  1500w
                             "
                             media="(min-width: 1201px)"
                         />
 
-                        <img
-                            src="assets/images/home-1500.jpg"
-                            alt="Home image"
-                        />
+                        <img src="../images/about-1500.jpg" alt="About image" />
                     </picture>
-                    <figcaption>Home image</figcaption>
+                    <figcaption>About image</figcaption>
                 </figure>
             </div>
         </div>
-
         <div>
             <div>
                 <h2>Feedback Form</h2>
@@ -137,8 +103,8 @@
                         <p>
                             <input
                                 type="hidden"
-                                name="home-token"
-                                id="home-token"
+                                name="about-token"
+                                id="about-token"
                                 value="@!#flkjadljdf"
                             />
                         </p>
